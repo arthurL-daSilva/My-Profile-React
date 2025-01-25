@@ -47,7 +47,7 @@ export const Itens = styled.ul`
     }
 
     a:hover{
-        font-weight: bold;
+        font-weight: 500;
         transition: 0.4s all linear;
     }
 

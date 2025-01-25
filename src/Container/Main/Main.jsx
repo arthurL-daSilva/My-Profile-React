@@ -1,39 +1,46 @@
-import { Container } from './style'
+import { Container, Buttons, Itens } from './style'
 import Me from '../../Images/Me.jpeg'
+import LinkedIn from '../../Svg/linkedin-color.svg'
+import LinkedIn2 from '../../Svg/linkedin-preto.svg'
+import Email from '../../Svg/email.svg'
+import Github from '../../Svg/github.svg'
+import Location from '../../Svg/location.svg'
+import Phone from '../../Svg/phone.svg'
+
 
 export default function Main(){
     return(
         <Container>
             <img src={Me} alt="Foto minha" />
             <aside>
-                <p>Olá Pessoal</p>
+                <p>Olá Pessoal!</p>
                 <h1>Sou o Arthur</h1>
-                <h3>Dev Front-end React.js</h3>
                 <h6>ou jester para os mais chegados</h6>
-                <ul>
+                <h3>Dev Front-end React.js</h3>
+                <Itens>
                     <li>
-                        <img src="aaa" alt="Localização" />
+                        <img src={Location} alt="Localização" />
                         <p>Av. das Acácias, Guarujá</p>
                     </li>
                     <li>
-                        <img src="aaa" alt="Telefone" />
+                        <img src={Phone} alt="Telefone" />
                         <p>+55 (13) 98854-6767</p>
                     </li>
                     <li>
-                        <img src="aaa" alt="E-mail" />
+                        <img src={Email} alt="E-mail" />
                         <p>arthurleal723@gmail.com</p>
                     </li>
                     <li>
-                        <img src="aaa" alt="GitHub" />
-                        <a href="https://github.com/arthurL-daSilva">Meu GitHub!</a>
+                        <img src={Github} alt="GitHub" />
+                        <p>https://github.com/arthurL-daSilva</p>
                     </li>
-                </ul>
-                <section>
-                    <button>face</button>
-                    <button>insta</button>
-                    <button>linkdin</button>
-                    <button>twitter</button>
-                </section>
+                </Itens>
+                <Buttons>
+                    <a href="https://www.facebook.com/arthurdasilva.leal/"><button><img src={LinkedIn} alt="LinkedIn" id='lk'/><img src={LinkedIn2} alt="LinkedIn-black" id='lk2'/></button></a>
+                    <a href="https://www.instagram.com/arthur_leal2146/"><button></button></a>
+                    <a href="https://www.linkedin.com/in/arthurdasilvaleal/"><button></button></a>
+                    <a href="https://x.com/Art_2146Leal"><button></button></a>
+                </Buttons>
             </aside>
         </Container>
     )
