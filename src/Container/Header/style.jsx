@@ -43,7 +43,7 @@ export const Itens = styled.ul`
         background-color: #000;
         transition: 0.2s all linear;
         opacity: 0;
-        transform: translateY(10px);
+        transform: translateY(5px);
     }
 
     a:hover{

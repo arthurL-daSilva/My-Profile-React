@@ -6,6 +6,7 @@ export const Container = styled.div`
     justify-content: space-evenly;
     height: 849px;
     font-family: "Jura",serif;
+    color: #fff;
     img{
         
     }
@@ -56,7 +57,8 @@ export const Itens = styled.ul`
         align-items: center;
         gap: 5px;
         img{
-            width: 15px;
+            width: 18px;
+            padding-top: 3px;
         }
     }
 `
@@ -95,6 +97,17 @@ export const Buttons = styled.section`
 
     #lk2{
         width: 27px;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #tt{
+        width: 27px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #tt2{
+        width: 30px;
         transition: opacity 0.3s ease-in-out;
     }
 

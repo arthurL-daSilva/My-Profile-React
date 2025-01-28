@@ -1,11 +1,13 @@
 import { Container, Buttons, Itens } from './style'
-import Me from '../../Images/Me.jpeg'
+import Me from '../../Images/Me.png'
 import LinkedIn from '../../Svg/linkedin-color.svg'
 import LinkedIn2 from '../../Svg/linkedin-preto.svg'
 import Email from '../../Svg/email.svg'
 import Github from '../../Svg/github.svg'
 import Location from '../../Svg/location.svg'
 import Phone from '../../Svg/phone.svg'
+import Twitter from '../../Svg/twitter.svg'
+import Twitter2 from '../../Svg/twitter2.svg'
 
 
 export default function Main(){
@@ -39,7 +41,7 @@ export default function Main(){
                     <a href="https://www.facebook.com/arthurdasilva.leal/"><button><img src={LinkedIn} alt="LinkedIn" id='lk'/><img src={LinkedIn2} alt="LinkedIn-black" id='lk2'/></button></a>
                     <a href="https://www.instagram.com/arthur_leal2146/"><button></button></a>
                     <a href="https://www.linkedin.com/in/arthurdasilvaleal/"><button></button></a>
-                    <a href="https://x.com/Art_2146Leal"><button></button></a>
+                    <a href="https://x.com/Art_2146Leal"><button><img src={Twitter} alt="twitter" id='tt'/><img src={Twitter2} alt="Twitter" id='tt2'/></button></a>
                 </Buttons>
             </aside>
         </Container>
