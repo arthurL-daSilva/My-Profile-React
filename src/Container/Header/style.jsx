@@ -14,6 +14,7 @@ export const About = styled.h5`
     font-family: "Roboto Condensed", serif;
     font-weight: 700;
     font-size: 30px;
+    min-width: 129px;
 `
 
 export const Itens = styled.ul`

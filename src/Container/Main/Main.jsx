@@ -1,14 +1,17 @@
 import { Container, Buttons, Itens, Me_img} from './style'
 import Me from '../../Images/Me.png'
-import LinkedIn from '../../Svg/linkedin-color.svg'
-import LinkedIn2 from '../../Svg/linkedin-preto.svg'
 import Email from '../../Svg/email.svg'
 import Github from '../../Svg/github.svg'
 import Location from '../../Svg/location.svg'
 import Phone from '../../Svg/phone.svg'
+import LinkedIn from '../../Images/linkedin_icon.svg'
+import LinkedIn2 from '../../Images/linkedin_icon2.png'
 import Twitter from '../../Svg/twitter.svg'
 import Twitter2 from '../../Svg/twitter2.svg'
-
+import Facebook from '../../Images/facebook_icon.png'
+import Facebook2 from '../../Images/facebook_icon2.png'
+import Instagram from '../../Images/insta_icon.png'
+import Instagram2 from '../../Images/insta_icon2.png'
 
 export default function Main(){
     return(
@@ -41,9 +44,9 @@ export default function Main(){
                         </li>
                     </Itens>
                     <Buttons>
-                        <a href="https://www.facebook.com/arthurdasilva.leal/"><button><img src={LinkedIn} alt="LinkedIn" id='lk'/><img src={LinkedIn2} alt="LinkedIn-black" id='lk2'/></button></a>
-                        <a href="https://www.instagram.com/arthur_leal2146/"><button></button></a>
-                        <a href="https://www.linkedin.com/in/arthurdasilvaleal/"><button></button></a>
+                        <a href="https://www.linkedin.com/in/arthurdasilvaleal/"><button><img src={LinkedIn} alt="LinkedIn" id='lk'/><img src={LinkedIn2} alt="LinkedIn-black" id='lk2'/></button></a>
+                        <a href="https://www.instagram.com/arthur_leal2146/"><button><img src={Instagram} alt="Instagram" id='ig'/><img src={Instagram2} alt="Instagram" id='ig2'/></button></a>
+                        <a href="https://www.facebook.com/arthurdasilva.leal/"><button><img src={Facebook} alt="Facebook" id='fb'/><img src={Facebook2} alt="Facebook" id='fb2'/></button></a>
                         <a href="https://x.com/Art_2146Leal"><button><img src={Twitter} alt="twitter" id='tt'/><img src={Twitter2} alt="Twitter" id='tt2'/></button></a>
                     </Buttons>
                 </aside>

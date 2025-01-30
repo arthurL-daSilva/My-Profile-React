@@ -23,7 +23,7 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
-        animation-duration: 2s;
+        animation-duration: 1.8s;
     }
 
     aside > p{
@@ -64,6 +64,7 @@ export const Me_img = styled.div`
     overflow: hidden;
     height: 420px;
     animation-duration: 2s;
+    
     img{
         height: 430px;
         padding-top: 20px;
@@ -110,6 +111,13 @@ export const Buttons = styled.section`
         position: absolute;
     }
 
+    button:hover{
+        transition: all 0.3s linear;
+        background-color: #fff;
+    }
+
+    /* -------------------LINKEDIN------------------- */
+
     #lk{
         width: 30px;
         opacity: 0;
@@ -117,24 +125,8 @@ export const Buttons = styled.section`
     }
 
     #lk2{
-        width: 27px;
-        transition: opacity 0.3s ease-in-out;
-    }
-
-    #tt{
-        width: 22px;
-        opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-    }
-
-    #tt2{
         width: 30px;
         transition: opacity 0.3s ease-in-out;
-    }
-
-    button:hover{
-        transition: all 0.3s linear;
-        background-color: #fff;
     }
 
     button:hover #lk{
@@ -147,12 +139,71 @@ export const Buttons = styled.section`
         opacity: 0;
     }
 
+    /* -------------------TWITTER------------------- */
+
+    #tt{
+        width: 22px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #tt2{
+        width: 30px;
+        transition: opacity 0.3s ease-in-out;
+    }
+
     button:hover #tt{
         transition: opacity 0.3s ease-in-out;
         opacity: 1;
     }
 
     button:hover #tt2{
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0;
+    }
+
+    /* -------------------FACEBOOK------------------- */
+
+    #fb{
+        width: 27.5px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #fb2{
+        width: 30px;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    button:hover #fb{
+        transition: opacity 0.3s ease-in-out;
+        opacity: 1;
+    }
+
+    button:hover #fb2{
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0;
+    }
+
+    /* -------------------INSTAGRAM------------------- */
+
+    #ig2{
+        width: 30px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #ig{
+        width: 30px;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    button:hover #ig2{
+        transition: opacity 0.3s ease-in-out;
+        opacity: 1;
+    }
+
+    button:hover #ig{
         transition: opacity 0.3s ease-in-out;
         opacity: 0;
     }
