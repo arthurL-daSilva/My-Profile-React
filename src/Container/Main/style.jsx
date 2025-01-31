@@ -1,11 +1,17 @@
 import styled from "styled-components"
 import 'animate.css'
 
+export const Fix_center = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
 export const Container = styled.div`
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    margin-top: 100px;
+    gap: 30px;
+    margin-top: 80px;
     /* height: 849px; */
     min-width: 700px;
     height: 600px;
@@ -14,16 +20,16 @@ export const Container = styled.div`
     border-radius: 24px;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
-
-    div{
-        overflow: hidden;
-    }
+    overflow: hidden;
 
     aside{
+        z-index: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;
         animation-duration: 1.8s;
+        animation-delay: 0.6s;
+        width: 400px;
     }
 
     aside > p{
@@ -57,20 +63,53 @@ export const Container = styled.div`
     }
 `
 
+// LEFT SIDE------------------------------------------------------------
+
+export const Details_me = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+    height: 600px;
+    width: 600px;
+    gap: 45px;
+    z-index: 2;
+    section{
+        
+        height: 60px;
+        @keyframes logo-spin {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+        #React_logo{
+            margin-left: 20px;
+            width: 50px;
+            animation: logo-spin infinite 20s linear;
+            filter: drop-shadow(0 0 5px #61dafbaa);
+        }
+    }
+
+`
+
 export const Me_img = styled.div`
-    
-    border: 1px solid rgba(224, 224, 224, 0.3);
-    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
     overflow: hidden;
-    height: 420px;
-    animation-duration: 2s;
-    
+    height: 350px;
+    width: 280px;
     img{
         height: 430px;
         padding-top: 20px;
     }
-    
 `
+
+// RIGHT SIDE------------------------------------------------------------
 
 export const Itens = styled.ul`
     list-style-type: none;
