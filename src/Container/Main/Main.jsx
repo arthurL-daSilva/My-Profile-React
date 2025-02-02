@@ -1,6 +1,7 @@
 import { Container, Buttons, Itens, Me_img, Details_me, Fix_center} from './style'
 import Me from '../../Images/Me.png'
 import React from '../../Svg/react.svg'
+import Js from '../../Images/js.png'
 import Email from '../../Svg/email.svg'
 import Github from '../../Svg/github.svg'
 import Location from '../../Svg/location.svg'
@@ -24,7 +25,8 @@ export default function Main(){
                     </Me_img>
                     <p>Técnologias que uso:</p>
                     <section>
-                        <img src={React} alt="React_Logo" id='React_logo'/>
+                        <img src={React} alt="React Logo" id='React_logo'/>
+                        <img src={Js} alt="Js logo" id='Js_logo'/>
                     </section>
                 </Details_me>
                 <div>

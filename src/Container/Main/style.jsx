@@ -13,7 +13,6 @@ export const Container = styled.div`
     gap: 30px;
     margin-top: 80px;
     /* height: 849px; */
-    min-width: 700px;
     height: 600px;
     font-family: "Jura",serif;
     color: #fff;
@@ -76,7 +75,9 @@ export const Details_me = styled.div`
     gap: 45px;
     z-index: 2;
     section{
-        
+        display: flex;
+        align-items: center;
+        gap: 20px;
         height: 60px;
         @keyframes logo-spin {
             from{
@@ -88,10 +89,15 @@ export const Details_me = styled.div`
         }
 
         #React_logo{
-            margin-left: 20px;
             width: 50px;
             animation: logo-spin infinite 20s linear;
-            filter: drop-shadow(0 0 5px #61dafbaa);
+            filter: drop-shadow(0 0 6px #61dafbaa);
+        }
+
+        #Js_logo{
+            width: 50px;
+            border-radius: 8px;
+            filter: drop-shadow(0 0 7px #fae900);
         }
     }
 
