@@ -72,7 +72,7 @@ export const Details_me = styled.div`
     background-color: rgb(49, 49, 49);
     height: 600px;
     width: 600px;
-    gap: 45px;
+    gap: 30px;
     z-index: 2;
     section{
         display: flex;
@@ -99,13 +99,18 @@ export const Details_me = styled.div`
             border-radius: 8px;
             filter: drop-shadow(0 0 7px #fae900);
         }
+        
+        #Node_logo{
+            width: 50px;
+            filter: drop-shadow( 0 0 6px #43B52B);
+        }
     }
 
 `
 
 export const Me_img = styled.div`
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 50%;
+    border-radius: 200px;
     overflow: hidden;
     height: 350px;
     width: 280px;
