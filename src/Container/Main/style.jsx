@@ -5,13 +5,14 @@ export const Fix_center = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 15px;
 `
 
 export const Container = styled.div`
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-top: 80px;
+    margin-top: 100px;
     /* height: 849px; */
     height: 600px;
     font-family: "Jura",serif;
@@ -19,6 +20,7 @@ export const Container = styled.div`
     border-radius: 24px;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
+    box-shadow : 0 0 80px black;
     overflow: hidden;
 
     aside{
