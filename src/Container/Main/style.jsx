@@ -6,6 +6,7 @@ export const Fix_center = styled.div`
     justify-content: center;
     align-items: center;
     margin: 0 15px;
+    padding-bottom: 150px;
 `
 
 export const Container = styled.div`

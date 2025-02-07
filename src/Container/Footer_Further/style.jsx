@@ -2,20 +2,35 @@ import styled from "styled-components"
 
 export const Container = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    
     font-family: "Jura",serif;
     color: #fff;
-    margin-top: 150px;
-    background-color: #000;
-    /* border-top: 0.4px solid #777777; */
-    hr{
-        width: 99.5%;
-        margin-top: 0;
-        border: 1px solid #777777;
-        border-bottom: transparent;
+    background-color: rgb(0, 0, 0, 1);
+    img{
+        
     }
 `
 
 export const Trajetoria = styled.div`
     margin: 0 15px;
+    width: 500px;
+    border-radius: 16px;
+    text-align: justify;
+    P, h1{
+        padding: 0 15px;
+    }
+
+    hr{
+        border-color:#777777;
+        width: 300px;
+    }
+
+    p{
+        line-height: 1.5;
+    }
+
+    h1{
+        text-align: center;
+    }
 `
