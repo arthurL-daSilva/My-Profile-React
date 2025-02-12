@@ -5,21 +5,23 @@ export const Fix_center = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 15px;
+    padding-bottom: 150px;
 `
 
 export const Container = styled.div`
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-top: 80px;
+    margin-top: 100px;
     /* height: 849px; */
-    min-width: 700px;
     height: 600px;
     font-family: "Jura",serif;
     color: #fff;
     border-radius: 24px;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
+    box-shadow : 0 0 80px black;
     overflow: hidden;
 
     aside{
@@ -73,10 +75,12 @@ export const Details_me = styled.div`
     background-color: rgb(49, 49, 49);
     height: 600px;
     width: 600px;
-    gap: 45px;
+    gap: 30px;
     z-index: 2;
     section{
-        
+        display: flex;
+        align-items: center;
+        gap: 20px;
         height: 60px;
         @keyframes logo-spin {
             from{
@@ -88,10 +92,20 @@ export const Details_me = styled.div`
         }
 
         #React_logo{
-            margin-left: 20px;
             width: 50px;
             animation: logo-spin infinite 20s linear;
-            filter: drop-shadow(0 0 5px #61dafbaa);
+            filter: drop-shadow(0 0 6px #61dafbaa);
+        }
+
+        #Js_logo{
+            width: 50px;
+            border-radius: 8px;
+            filter: drop-shadow(0 0 7px #fae900);
+        }
+        
+        #Node_logo{
+            width: 50px;
+            filter: drop-shadow( 0 0 6px #43B52B);
         }
     }
 
@@ -99,7 +113,7 @@ export const Details_me = styled.div`
 
 export const Me_img = styled.div`
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 50%;
+    border-radius: 200px;
     overflow: hidden;
     height: 350px;
     width: 280px;

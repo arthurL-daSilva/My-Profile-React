@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Roboto+Condensed:ital,wght@0,700;1,700&family=Smooch+Sans:wght@100..900&display=swap');
 
 body{
-    margin: 0 15px;
-    background: rgb(0,0,0);
-    background: linear-gradient(18deg, rgba(0,0,0,1) 0%, rgba(57,83,199,1) 47%, rgba(94,61,186,1) 100%);
-    background-repeat: no-repeat;
+    /* margin: 0 15px; */
+    margin: 0;
+    /* background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(57,83,199,1) 50%, rgba(94,61,186,1) 100%); */
+    
 }
