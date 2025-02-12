@@ -1,10 +1,13 @@
-import { Container, Tranjetoria, General_text } from "../Footer_Further/style";
-import { Linguagem } from "../Footer_Further/style";
+import { Container, Container_Each, General_text, GPU_img, General_img, Discord_img } from "../Footer_Further/style";
+import Redes from "../../Images/3R-T39.jpeg"
+import GPU from "../../Images/Rx580.png"
+import CPU from "../../Images/R7.png"
+import Old_Times from "../../Images/Discord.png"
 
 export default function Footer(){
     return(
         <Container>
-            <Tranjetoria>
+            <Container_Each>
                 <General_text>
                     <h1>Minha História</h1>
                     <hr />
@@ -20,11 +23,33 @@ export default function Footer(){
                     </p>
                 </General_text>
                 <div>
-                    <img alt="Menino jogando online" src="https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2022/10/25105349/GettyImages-1097026358.jpg" />
-                    <p>imagem meramente ilustrativa</p>
+                    <General_img alt="Menino jogando online" src="https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2022/10/25105349/GettyImages-1097026358.jpg" />
+                    <p>imagem meramente ilustrativa(não sou eu e muito menos meu setup na epoca 😭)</p>
                 </div>
-            </Tranjetoria>
-            <Linguagem>
+            </Container_Each>
+            <Container_Each>
+                <General_text>
+                    <p>Em 2018, após ver o estado deplorável do meu antigo computador em 2016-2017, meu
+                    pai me presenteou com um novo computador, muito mais potente que o anterior e 
+                    sendo capaz de rodar todos os jogos que eu queria na época, foi literalmente um sonho
+                    realizado. Em 2019, fiz um curso profisionalizante do CAMP e no final desse ano comecei
+                    meu primeiro emprego, assim comecei a planejar alguns upgrades para meu PC.
+                    </p>
+                    <p>Primeiro comecei com mais armazenamento, depois mais RAM, uma Placa de vídeo
+                    mais intermediaria (na época, comprei uma RX 580 8GB no precinho, R$800, antes da pandemia)
+                    e por fim, troquei de placa mãe e processador, uma B450 e um Ryzen 7 2700.
+                    </p>
+                </General_text>
+                <div>
+                    <GPU_img src={GPU} alt="Placa de video" />
+                    <GPU_img src={CPU} alt="Processador" />
+                </div>
+            </Container_Each>
+            <Container_Each>
+                <div>
+                    <General_img src={Redes} alt="Turma de redes" />
+                    <p>Minha turma de Redes de 2022</p>
+                </div>
                 <General_text>
                     <h1>Primeiro contato com TI</h1>
                     <hr />
@@ -41,7 +66,28 @@ export default function Footer(){
                     amizades que, pelo menos algumas, perduram até hoje.
                     </p>
                 </General_text>
-            </Linguagem>
+            </Container_Each>
+            <Container_Each>
+                <General_text>
+                    <p>No começo de 2023, ainda com o curso de Redes em andamento, iniciei um
+                    técnologo em Análise e Desenvolvimento de Sistemas na FATEC, conhecendo novas pessoas
+                    tecologias, metodologias e fazendo novas amizades também, sendo facilmente um dos
+                    melhores anos da minha vida.
+                    </p>
+                    <p>Tirando a vida acadêmica, fizemos muitas jogatinas da madrugada, que era o que 
+                    eu mais adorava, juntar a rapaziada no discord e "varar" a noite jogando e dando altas
+                    risadas as 3 da manhã com um medo da porr# dos meus pais acordarem (quem nunca?).
+                    </p>
+                </General_text>
+            </Container_Each>
+            <Discord_img src={Old_Times} alt="Gameplay no discord"/>
+            <Container_Each>
+                <General_text>
+                    <p>Essa foi a minha trajetória ao longo dos ultimos 3 anos, mas e quanto as
+                    linguagens?
+                    </p>
+                </General_text>
+            </Container_Each>
         </Container>
     )
 }
