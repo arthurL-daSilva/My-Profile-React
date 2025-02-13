@@ -1,8 +1,10 @@
-import { Container, Container_Each, General_text, GPU_img, General_img, Discord_img } from "../Footer_Further/style";
+import { Container, Container_Each, General_text, GPU_img, General_img, Discord_img, CS_img, Fort_img, TwoGames } from "./style";
 import Redes from "../../Images/3R-T39.jpeg"
 import GPU from "../../Images/Rx580.png"
 import CPU from "../../Images/R7.png"
 import Old_Times from "../../Images/Discord.png"
+import CS from "../../Images/CS2.jpeg"
+import Fort from "../../Images/Fort.jpeg"
 
 export default function Footer(){
     return(
@@ -70,7 +72,7 @@ export default function Footer(){
             <Container_Each>
                 <General_text>
                     <p>No começo de 2023, ainda com o curso de Redes em andamento, iniciei um
-                    técnologo em Análise e Desenvolvimento de Sistemas na FATEC, conhecendo novas pessoas
+                    técnologo em Análise e Desenvolvimento de Sistemas na FATEC, conhecendo novas pessoas,
                     tecologias, metodologias e fazendo novas amizades também, sendo facilmente um dos
                     melhores anos da minha vida.
                     </p>
@@ -81,6 +83,10 @@ export default function Footer(){
                 </General_text>
             </Container_Each>
             <Discord_img src={Old_Times} alt="Gameplay no discord"/>
+            <TwoGames>
+                <CS_img src={CS} alt="Counter-Strike" />
+                <Fort_img src={Fort} alt="Fortnite" />
+            </TwoGames>
             <Container_Each>
                 <General_text>
                     <p>Essa foi a minha trajetória ao longo dos ultimos 3 anos, mas e quanto as

@@ -10,11 +10,6 @@ export const Container = styled.div`
     background-color: rgb(0, 0, 0, 1);
 `
 
-export const General_img = styled.img`
-    width: 400px;
-    height: 300px;
-`
-
 export const Container_Each = styled.div`
     display: flex;
     flex-direction: row;
@@ -25,6 +20,11 @@ export const Container_Each = styled.div`
     div p{
         font-size: 10px;
     }
+`
+
+export const General_img = styled.img`
+    width: 400px;
+    height: 300px;
 `
 
 export const General_text = styled.section`
@@ -57,4 +57,19 @@ export const GPU_img = styled.img`
 
 export const Discord_img = styled.img`
     width: 900px;
+`
+
+export const TwoGames = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+`
+
+export const CS_img = styled.img`
+    width: 400px;
+`
+
+export const Fort_img = styled.img`
+    width: 500px;
 `
